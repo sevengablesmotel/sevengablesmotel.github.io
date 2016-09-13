@@ -26,17 +26,17 @@ $(document).ready(function(){
         }
     });
 
-    $('#countdown_dashboard').countDown({
-        targetDate: {
-            'day':      13,
-            'month':    10,
-            'year':     2016,
-            'hour':     00,
-            'min':      00,
-            'sec':      01,
-        },
-        omitWeeks: true
-    });
+    // $('#countdown_dashboard').countDown({
+    //     targetDate: {
+    //         'day':      13,
+    //         'month':    10,
+    //         'year':     2016,
+    //         'hour':     00,
+    //         'min':      00,
+    //         'sec':      01,
+    //     },
+    //     omitWeeks: true
+    // });
 
     $('.init-slider').owlCarousel({
         items:1,
