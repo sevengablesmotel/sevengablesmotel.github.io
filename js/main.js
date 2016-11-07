@@ -42,6 +42,7 @@ $(document).ready(function(){
         items:1,
         merge:true,
         loop:true,
+        autoplay: true,
         video:true,
         smartSpeed: 600
     });
